@@ -5,8 +5,8 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 def dm01_模型欠拟合():
  np.random.seed(666)
- x=np.random.uniform(-3,3,size=100)
- y=0.5*x**2+ x +2 +np.random.normal(0,1,size=100)
+ x=np.random.uniform(-3,3,size=99)
+ y=0.5*x**2+ x +2 +np.random.normal(0,1,size=99)
 
  estimator=LinearRegression()
 
